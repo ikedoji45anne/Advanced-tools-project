@@ -3,6 +3,19 @@
     --secondary-color: #f5f2fe;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   }
+  @media  (max-width: 600px) {
+    h2 {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+        font-size: 14px;
+    }
+    img [
+        display: none;
+    ]
+    
+  }
   
   body {
     margin-top: 100px;
@@ -15,11 +28,12 @@
   }
   
   h1 {
-    font-size: 96px;
+    font-size: 48px;
+    line-height: 1.5;
   }
   
   h2 {
-    font-size: 48px;
+    font-size: 32px;
   }
   
   h3 {
